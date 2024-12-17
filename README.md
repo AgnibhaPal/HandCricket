@@ -2,7 +2,7 @@
 Hand Cricket is a game played in India at schools, homes, backyards, and streets. It is like cricket but played with hands instead of a bat or ball.
 
 First, a team is made, that consists of an equal or unequal number of players.
-The team captains toss with each other in any way but the Head and Tailares are the most common.
+The team captains toss with each other in any way but the "Head and Tail" is the most common.
 The winner from the toss chooses if they would rather bat or ball. 
 
 The winning objective of the game is to score more runs than the target set by the opposition.
