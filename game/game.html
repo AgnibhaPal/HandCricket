@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="gamestyle.css" rel="stylesheet">
+</head>
+<body>
+    <section id="phase1">
+        <h1 id="phasetitle">Toss</h1>
+        <h1 id="phasedescription">Choose Head or Tail</h1>
+        <div id="phaseinputs">
+            <button onclick="choose_head()">Head</button>
+            <button onclick="choose_tail()">Tail</button>
+        </div>
+        <div id="phasestats">
+            <h1>Your Choice</h1>
+            <table>
+                <tr>
+                  <th>Head</th>
+                  <th>Tail</th>
+                </tr>
+                <tr>
+                  <td id="totalhead">0</td>
+                  <td id="totaltail">0</td>
+                </tr>
+              </table>
+        </div>
+    </section>
+    <section id="phase2">
+        <h1 id="phasetitle">Toss</h1>
+        <h1 id="phasedescription">Choose a number</h1>
+        <div id="phaseinputs">
+            <button onclick="player_number_choice(1)">1</button>
+            <button onclick="player_number_choice(2)">2</button>
+            <button onclick="player_number_choice(3)">3</button>
+            <button onclick="player_number_choice(4)">4</button>
+            <button onclick="player_number_choice(5)">5</button>
+        </div>
+    </section>
+    <section id="phase3">
+        <h1 id="phasetitle">Toss Result</h1>
+        <h1 id="phasedescription" class="phase3des"></h1>
+        <div id="phaseinputs">
+            <button onclick="next()">Next</button>
+        </div>
+        <div id="phasestats">
+            <h1>Your Choice</h1>
+            <table>
+                <tr>
+                  <th>Win</th>
+                  <th>Lost</th>
+                </tr>
+                <tr>
+                  <td id="totalwin">0</td>
+                  <td id="totallost">0</td>
+                </tr>
+              </table>
+        </div>
+    </section>
+    <section id="phase4">
+      <h1 id="phasetitle">Decesion</h1>
+      <h1 id="phasedescription" class="phase4des"></h1>
+      <div id="phaseinputs" class="phase4inps">
+          <button onclick="choose_batting()" class="phase4bat">Batting</button>
+          <button onclick="choose_balling()" class="phase4ball">Balling</button>
+          <button onclick="next_game()" class="phase4next">Next</button>
+      </div>
+      <div id="phasestats">
+          <h1>Your Choice</h1>
+          <table>
+              <tr>
+                <th>Batting</th>
+                <th>Balling</th>
+              </tr>
+              <tr>
+                <td id="battingchoice">0</td>
+                <td id="ballingchoice">0</td>
+              </tr>
+            </table>
+      </div>
+    </section>
+    <!-- GAME PHASE -->
+    <section id="phase5">
+      <h1 id="phasetitle" class="phase5title"></h1>  
+      <div id="phaseinputs" class="phase5inps">
+          <button onclick="choose_number(1)">1</button>
+          <button onclick="choose_number(2)">2</button>
+          <button onclick="choose_number(3)">3</button>
+          <button onclick="choose_number(4)">4</button>
+          <button onclick="choose_number(5)">5</button>
+          <button onclick="choose_number(6)">6</button>
+      </div>
+      <h1 id="phasestatus" class="phase5des"></h1>
+      <div id="gameboard">
+        <div class="scoreboard">
+          <div class="player">Player</div>
+          <div id="score" class="separator">0 - 0</div>
+          <div class="targettxt">text</div>
+          <div id="overs" class="separator">0 0 0 0 0 0</div>
+          <div class="bot">Bot</div>
+      </div>
+      </div>
+  </section>
+    <script src="script.js" async></script>
+</body>
+</html>

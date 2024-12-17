@@ -1,0 +1,106 @@
+
+#phase1 {
+    display: block;
+}
+#phase2, #phase3, #phase4, #phase5 {
+    display: none;
+}
+#phasedescription {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+#phaseinputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+#phaseinputs button{
+    width:160px;
+    height:50px;
+    font-size: 1.4rem;
+}
+#phasestats {
+    display: flex;
+}
+#phasestats h1 {
+    margin-left: 100px;
+    margin-right: -100px;
+}
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+#phasestatus {
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: rgb(71, 114, 43);
+    border: 2px white solid;
+    margin:1px;
+    padding: 20px;
+    width:500px;
+    font-size:1.1rem;
+    border-radius: 50px;
+    margin: 10px auto;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    width: 900px; /* Adjust as needed */
+    margin: 20px auto; /* Center horizontally */
+}
+
+.scoreboard > div {
+    flex: 1;
+    text-align: center;
+}
+
+.scoreboard .player, .scoreboard .bot {
+    font-weight: bold;
+}
+
+.scoreboard .separator {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0 10px;
+}
