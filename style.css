@@ -65,8 +65,13 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:500px;
+    height:80vh;
     gap:10px;
+    flex-wrap: wrap;
+}
+section p {
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 .play {
     background-color: #F1AB86;
