@@ -8,3 +8,6 @@ The winner from the toss chooses if they would rather bat or ball.
 The winning objective of the game is to score more runs than the target set by the opposition.
 You score run by doing hand signs representing numbers like 1, 2, 3, 4, 5 and 6. If the number of the batsman and the baller is not equal the run 
 is added to the batsman team and if it is equal the batsman loses their wicket and passes the batting to another teammate.
+
+# Website to play the game
+https://hand-cricket-blush.vercel.app/
