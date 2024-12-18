@@ -169,7 +169,7 @@ function choose_number(number) {
                         if (result) {
                             localStorage.setItem("totalmatchplayed", (localStorage.getItem("totalmatchplayed") == null ? 0 : parseInt(localStorage.getItem("totalmatchplayed"))) + 1);
                             localStorage.setItem("totalmatchlost", (localStorage.getItem("totalmatchlost") == null ? 0 : parseInt(localStorage.getItem("totalmatchlost"))) + 1);
-                            window.location.href = "/."; // Replace with your desired URL
+                            window.location.href = "/HandCricket/index.html"; // Replace with your desired URL
                         }
                     }
                 }
@@ -184,7 +184,7 @@ function choose_number(number) {
                 half_century_counter -= 50;
             }
             if (century_counter >= 100) {
-                localStorage.setItem("halfcentury", (localStorage.getItem("halfcentury") == null ? 0 : parseInt(localStorage.getItem("halfcentury"))) + 1);
+                localStorage.setItem("century", (localStorage.getItem("century") == null ? 0 : parseInt(localStorage.getItem("century"))) + 1);
                 century_counter -= 100;
             }
             cstatus(`The player scored ${player_number} runs and bot balled ${bot_number}`)
@@ -197,7 +197,7 @@ function choose_number(number) {
                 if (result) {
                     localStorage.setItem("totalmatchplayed", (localStorage.getItem("totalmatchplayed") == null ? 0 : parseInt(localStorage.getItem("totalmatchplayed"))) + 1);
                     localStorage.setItem("totalmatchwon", (localStorage.getItem("totalmatchwon") == null ? 0 : parseInt(localStorage.getItem("totalmatchwon"))) + 1);
-                    window.location.href = "/."; // Replace with your desired URL
+                    window.location.href = "/HandCricket/index.html"; // Replace with your desired URL
                 }
             }
         }
@@ -234,7 +234,7 @@ function choose_number(number) {
                         if (result) {
                             localStorage.setItem("totalmatchplayed", (localStorage.getItem("totalmatchplayed") == null ? 0 : parseInt(localStorage.getItem("totalmatchplayed"))) + 1);
                             localStorage.setItem("totalmatchwon", (localStorage.getItem("totalmatchwon") == null ? 0 : parseInt(localStorage.getItem("totalmatchwon"))) + 1);
-                            window.location.href = "/."; // Replace with your desired URL
+                            window.location.href = "/HandCricket/index.html"; // Replace with your desired URL
                         }
                     }
                 }
@@ -243,7 +243,7 @@ function choose_number(number) {
         } else {
             runs += bot_number;
             if (hat_trick > 0) {
-                hat_trick -= 1;
+                hat_trick = 0;
             }
             cstatus(`The bot scored ${bot_number} runs and player balled ${player_number}`)
             document.getElementById("overs").innerHTML = updateList(over, bot_number);
@@ -255,7 +255,7 @@ function choose_number(number) {
                 if (result) {
                     localStorage.setItem("totalmatchplayed", (localStorage.getItem("totalmatchplayed") == null ? 0 : parseInt(localStorage.getItem("totalmatchplayed"))) + 1);
                     localStorage.setItem("totalmatchlost", (localStorage.getItem("totalmatchlost") == null ? 0 : parseInt(localStorage.getItem("totalmatchlost"))) + 1);
-                    window.location.href = "/."; // Replace with your desired URL
+                    window.location.href = "/HandCricket/index.html"; // Replace with your desired URL
                 }
             }
         }
