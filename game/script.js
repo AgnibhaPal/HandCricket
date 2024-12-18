@@ -169,7 +169,7 @@ function choose_number(number) {
                         if (result) {
                             localStorage.setItem("totalmatchplayed", (localStorage.getItem("totalmatchplayed") == null ? 0 : parseInt(localStorage.getItem("totalmatchplayed"))) + 1);
                             localStorage.setItem("totalmatchlost", (localStorage.getItem("totalmatchlost") == null ? 0 : parseInt(localStorage.getItem("totalmatchlost"))) + 1);
-                            window.location.href = "/HandCricket/index.html"; // Replace with your desired URL
+                            window.location.href = "/."; // Replace with your desired URL
                         }
                     }
                 }
@@ -197,7 +197,7 @@ function choose_number(number) {
                 if (result) {
                     localStorage.setItem("totalmatchplayed", (localStorage.getItem("totalmatchplayed") == null ? 0 : parseInt(localStorage.getItem("totalmatchplayed"))) + 1);
                     localStorage.setItem("totalmatchwon", (localStorage.getItem("totalmatchwon") == null ? 0 : parseInt(localStorage.getItem("totalmatchwon"))) + 1);
-                    window.location.href = "/HandCricket/index.html"; // Replace with your desired URL
+                    window.location.href = "/."; // Replace with your desired URL
                 }
             }
         }
@@ -234,7 +234,7 @@ function choose_number(number) {
                         if (result) {
                             localStorage.setItem("totalmatchplayed", (localStorage.getItem("totalmatchplayed") == null ? 0 : parseInt(localStorage.getItem("totalmatchplayed"))) + 1);
                             localStorage.setItem("totalmatchwon", (localStorage.getItem("totalmatchwon") == null ? 0 : parseInt(localStorage.getItem("totalmatchwon"))) + 1);
-                            window.location.href = "/HandCricket/index.html"; // Replace with your desired URL
+                            window.location.href = "/."; // Replace with your desired URL
                         }
                     }
                 }
@@ -255,7 +255,7 @@ function choose_number(number) {
                 if (result) {
                     localStorage.setItem("totalmatchplayed", (localStorage.getItem("totalmatchplayed") == null ? 0 : parseInt(localStorage.getItem("totalmatchplayed"))) + 1);
                     localStorage.setItem("totalmatchlost", (localStorage.getItem("totalmatchlost") == null ? 0 : parseInt(localStorage.getItem("totalmatchlost"))) + 1);
-                    window.location.href = "/HandCricket/index.html"; // Replace with your desired URL
+                    window.location.href = "/."; // Replace with your desired URL
                 }
             }
         }
